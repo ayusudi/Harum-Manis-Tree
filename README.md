@@ -13,8 +13,8 @@ Terdapat Method :
   akan mengisi trees pada MangoTreeGrove sehingga isi dari properti trees adalah array of instance MangoTree atau HarumManisTree.  
 - nextYear() 
   akan menambahkan umur dari pohon-pohon pada properti trees dengan menggunakan method yang telah tersedia pada HarumManisTree/MangoTree.  
-- showDeadTree()  
-  Menampilkan nama pohon, umur dan tinggi yang tidak hidup.  
+- showAboveAverageHeight()  
+  Menampilkan nama pohon, umur dan tinggi yang memiliki tinggi diatas rata-rata.  
 
 ```js
 let grove = new MangoTreeGrove()
@@ -30,8 +30,8 @@ grove.inputTree("MangoTree", 3, 1.8, 7, false)
 grove.inputTree("HarumManisTree", 7, 2, 15, true)
 
 
+grove.showAboveAverageHeight()  
+
+
 grove.nextYear()
-
-
-grove.showDeadTree()
 ```
