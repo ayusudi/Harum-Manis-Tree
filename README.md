@@ -1,6 +1,6 @@
 # Harum Manis Tree
 
-buatlah class yang memiliki property yang sama dengan MangoTree, 
+buatlah class yang memiliki property yang sama dengan MangoTree.   
 perlu diperhatikan bahwa HarumManisTree menghasilkan buah MangoHarumManis pada produceFruits
 
 # Mango Tree Grove
@@ -10,11 +10,11 @@ buatlah class yang bernama MangoTreeGrove denga properti mangoTrees berupa array
 
 Terdapat Method : 
 - inputTree(name, age, height, matureAge, healthStatus) 
-  akan mengisi trees pada MangoTreeGrove sehingga isi dari properti trees adalah array of instance MangoTree atau HarumManisTree
+  akan mengisi trees pada MangoTreeGrove sehingga isi dari properti trees adalah array of instance MangoTree atau HarumManisTree.  
 - nextYear()
-  akan menambahkan umur dari pohon-pohon pada properti trees dengan menggunakan method yang telah tersedia pada HarumManisTree/MangoTree
+  akan menambahkan umur dari pohon-pohon pada properti trees dengan menggunakan method yang telah tersedia pada HarumManisTree/MangoTree.  
 - showDeadTree() 
-  Menampilkan nama pohon, umur dan tinggi yang tidak hidup.
+  Menampilkan nama pohon, umur dan tinggi yang tidak hidup.  
 
 ```js
 let grove = new MangoTreeGrove()
