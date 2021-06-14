@@ -11,7 +11,7 @@ buatlah class yang bernama MangoTreeGrove denga properti mangoTrees berupa array
 Terdapat Method : 
 - inputTree(name, age, height, matureAge, healthStatus)  
   akan mengisi trees pada MangoTreeGrove sehingga isi dari properti trees adalah array of instance MangoTree atau HarumManisTree.  
-- nextYear() 
+- nextYear()  
   akan menambahkan umur dari pohon-pohon pada properti trees dengan menggunakan method yang telah tersedia pada HarumManisTree/MangoTree.  
 - showAboveAverageHeight()  
   Menampilkan nama pohon, umur dan tinggi yang memiliki tinggi diatas rata-rata.  
