@@ -14,7 +14,7 @@ Terdapat Method :
 - nextYear()  
   akan menambahkan umur dari pohon-pohon pada properti trees dengan menggunakan method yang telah tersedia pada HarumManisTree/MangoTree.  
 - showAboveAverageHeight()  
-  Menampilkan nama pohon, umur dan tinggi yang memiliki tinggi diatas rata-rata.  
+  Menampilkan `nama pohon, umur dan tinggi` yang memiliki tinggi diatas rata-rata.  
 
 ```js
 let grove = new MangoTreeGrove()
